@@ -16,13 +16,15 @@ see it live : http://daamien.github.com/pgfont/demo.html
 2- Install the pgFont.ttf file on your website and modify the font location in pgFont.css
 
 3- Add the following lines to the page header
-
+```html
   <link rel="stylesheet" href="font-awesome.css">
   <link rel="stylesheet" href="pgFont.css">
+```
 
 4- You can now include the Postgres logo with this code 
-
+```html
   <p><i class="icon-pg-logo "></i> Slonik \o/</p>
+```
 
 5- Enjoy !
 
