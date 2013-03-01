@@ -1,9 +1,20 @@
-#pgfont 1.0.0
+#pgFont 1.0.0
 
 
 ## What is this ?
 
-TODO
+pgFont is a very simple font containing the PostgreSQL logo.
+
+pgFont is basically an extension of the Font Awesome project.
+
+## I'm a Postgres DBA. Is this useful for me ?
+
+Probably not. 
+
+The goal of this font is to help web developpers who build websites related to Postgres. 
+With a minimum of effort, they can integrate smoothly the PostgreSQL logo in their design.
+
+This font should be helpful for Postgres community members creating websites with Twitter Bootstrap templates.
 
 ## Demo
 
@@ -11,19 +22,19 @@ see it live : http://daamien.github.com/pgfont/demo.html
 
 ## HTML Integration 
 
-1- First you need to download install Font Awesome : http://fortawesome.github.com/Font-Awesome/
+1- Download and install Font Awesome : http://fortawesome.github.com/Font-Awesome/
 
 2- Install the pgFont.ttf file on your website and modify the font location in pgFont.css
 
 3- Add the following lines to the page header
-```html
+```
   <link rel="stylesheet" href="font-awesome.css">
   <link rel="stylesheet" href="pgFont.css">
 ```
 
 4- You can now include the Postgres logo with this code 
-```html
-  <p><i class="icon-pg-logo "></i> Slonik \o/</p>
+```
+  <p><i class="icon-pg-logo "></i> Slonik !</p>
 ```
 
 5- Enjoy !
